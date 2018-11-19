@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html layout:decorate="~{layout}">
+
+<head>
+    <title>Home</title>
+</head>
+<body>
+<section layout:fragment="custom-content">
+    <hr class="divide divide-md">
+    <th:block th:include="~{components/carousel}"></th:block>
+    <hr class="divide divide-md">
+    <th:block th:include="components/carousel"></th:block>
+    <hr class="divide divide-md">
+    <th:block th:include="components/carousel"></th:block>
+    <hr class="divide divide-md">
+    <th:block th:include="components/carousel"></th:block>
+</section>
+</body>
+</html>
