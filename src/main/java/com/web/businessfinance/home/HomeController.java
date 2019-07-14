@@ -12,6 +12,6 @@ public class HomeController {
     public String home(Model model){
 
         model.addAttribute("viko", "babi");
-        return "pages/home";
+        return "page/home";
     }
 }

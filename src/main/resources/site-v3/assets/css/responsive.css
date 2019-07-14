@@ -1,0 +1,164 @@
+/*==============================  Mobile First Method  ==============================*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding-top: 80px
+    }
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+    }
+    .navigation {
+        display: none;
+    }
+    .comment{
+        display:none;
+    }
+    .comment-desktop{
+        display:block;
+    }
+    .header .desktop-navigation {
+        display: block;
+    }
+    .reaction .item.col-4 {
+        width: 16.66%;
+    }
+    .slider h3,
+    .slider li:first-child,
+    .slider i {
+        margin-left: 20px;
+    }
+    .slider li:last-child {
+        margin-right: 20px;
+    }
+
+    #special-channel-slider li:first-child {
+        margin-left: 2%;
+    }
+    #special-channel-slider li:last-child {
+        margin-right: 2%;
+    }
+     #special-channel-slider .slider-image li {
+         width: 30.33%;
+     }
+
+     #special-channel-slider .slider-image .content-img img {
+         width: 100%;
+         height: auto;
+     }
+    .list-m-right {
+        margin-right: 20px;
+    }
+    .header .desktop-navigation .list-menu .menu-item a {
+        padding: 11px 8px 0px 8px;
+        font-size: 12px;
+    }
+    .header .desktop-navigation .list-menu .menu-item .sub-nav li:last-child {
+        margin-bottom:10px;
+    }
+
+    .list-article .view small{
+        font-size: 100%
+    }
+    .no-desk-scroll .slider ul {
+        overflow: hidden;
+    }
+
+    #special-channel-slider .slider-image img{
+        height: auto !important;
+    }
+
+    #gallery-slider .simplebar-scroll-content,
+    #schedule-slider .simplebar-scroll-content,
+    #focus-slider .simplebar-scroll-content
+    {
+        overflow-y: hidden !important;
+    }
+    #gallery-slider .slider li{
+        width: 95% !important;
+        margin-right: 5px !important;
+    }
+    #schedule-slider .slider li {
+        width: 40% !important;
+        margin-right: 5px !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .header .desktop-navigation .list-menu .menu-item a {
+        padding: 7px 10px 0px 10px;
+        font-size: 14px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1400px) {}
+
+/*==============================  Non-Mobile First Method  ==============================*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .header .logo img {
+        height: 18px;
+        margin-top: 2px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .header .logo img {
+        height: 20px;
+    }
+    .vlign-article {
+        align-items: center;
+    }
+    .isloggedin {
+        margin: 0px 0px 0px 0px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .only-desk{
+        display: none;    }
+
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {}
+
+/* Custom, iPhone Retina */
+
+
+@media only screen and (max-width: 320px) {
+    .list-article .dfp-ads {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+
+/* Custom , Header Tablet */
+
+@media only screen and (width: 768px) {}
+

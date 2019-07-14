@@ -3,17 +3,17 @@
 
 <head>
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<section layout:fragment="custom-content">
+<div class="web-container" layout:fragment="container">
     <hr class="divide divide-md">
-    <th:block th:include="~{components/carousel}"></th:block>
-    <hr class="divide divide-md">
-    <th:block th:include="components/carousel"></th:block>
-    <hr class="divide divide-md">
-    <th:block th:include="components/carousel"></th:block>
-    <hr class="divide divide-md">
-    <th:block th:include="components/carousel"></th:block>
-</section>
+    <th:block th:with="apiId='newest'" th:include="components/slot-api"></th:block>
+</div>
+<th:block layout:fragment="inject-script">
+    <script src="https://unpkg.com/swiper@4.1.0/dist/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/simplebar@3.0.0-beta.1/dist/simplebar.min.js"></script>
+    <script type="module" src="js/page/home.js"></script>
+</th:block>
 </body>
 </html>
